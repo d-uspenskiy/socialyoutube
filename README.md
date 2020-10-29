@@ -1,2 +1,2 @@
-# socialyoutube
-Social youtube
+# socialytube
+Social YouTube
