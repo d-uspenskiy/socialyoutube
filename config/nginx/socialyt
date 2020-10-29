@@ -6,7 +6,7 @@ server {
   listen 1880;
   listen [::]:1880;
 
-  root /var/www/socialyoutube/code/frontend;
+  root /var/www/socialytube/code/frontend;
   index index.html;
   expires -1;
 
@@ -15,7 +15,7 @@ server {
   }
 
   location /login/ {
-    alias /var/www/socialyoutube/code/login/;
+    alias /var/www/socialytube/code/login/;
   }
 
   location ~ ^/backend/(.+)$ {

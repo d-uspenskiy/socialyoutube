@@ -1,0 +1,3 @@
+[submodule "code/tools/jst"]
+	path = code/tools/jst
+	url = git@github.com:d-uspenskiy/jst.git
