@@ -1,0 +1,24 @@
+upstream backend {
+  server localhost:8080;
+}
+
+server {
+  listen 1880;
+  listen [::]:1880;
+
+  root /var/www/socialyoutube/code/frontend;
+  index index.html;
+  expires -1;
+
+  location / {
+    try_files $uri $uri/ /index.html =404;
+  }
+
+  location /login/ {
+    alias /var/www/socialyoutube/code/login/;
+  }
+
+  location ~ ^/backend/(.+)$ {
+    proxy_pass http://backend/$1;
+  }
+}

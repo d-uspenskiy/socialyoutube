@@ -1,0 +1,10 @@
+resources/tools.js
+resources/json_serializer.js
+resources/pipe_communicator.js
+resources/rpc.js
+resources/endpoint.js
+resources/parser.js
+resources/iface.js
+resources/injection.js
+resources/application.properties
+resources/keystore.p12

@@ -1,0 +1,19 @@
+{
+  "background": { 
+    "page":"background.html"
+  },
+  "description": "YT proxy",
+  "name": "YT proxy",
+  "icons": {"128": "icon_26693.png"},
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "http://*/",
+    "https://*/",
+    "<all_urls>"
+  ],
+  "version": "1.0",
+  "manifest_version" : 2,
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtmoZDyDH3FLeLGG/NKtABDoCZUOuZTNiY/MbBvEukabE3qwpwydIkU7lGBkNYqAtLIBt/u5JBDyDTq0usqfKGTXxk1MdnvT0fKz2YoAmpDNAH/Up2dJio97kjcs9FNZqtfGmuxIsSJHazd8iB5rpGrcHMcd3TQsS+nyQP35vXQqw6cNzRj592JT5cIo8uy+TqF1qb214P+25Kz3uqM8QVB85pWTxo8ppzpVcXeFJh30WXm81KvIJgd+PCdYvRjEE97QAMk2bWr5BLnZobRfhJvQ0TTIBAjyKRnabGlJqVwbHe1Stwieh9RjsmF/2rMV00SG5bm1SGJ9f4snAXrYVbQIDAQAB"
+}
