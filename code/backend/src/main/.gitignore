@@ -6,5 +6,4 @@ resources/endpoint.js
 resources/parser.js
 resources/iface.js
 resources/injection.js
-resources/application.properties
 resources/keystore.p12
