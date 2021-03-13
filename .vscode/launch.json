@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch User Service",
+      "request": "launch",
+      "mainClass": "com.socialyoutube.service.user.App",
+      "projectName": "user"
+    },
+    {
+      "type": "java",
       "name": "Debug (Launch)-Application<backend>",
       "request": "launch",
       "mainClass": "com.socialytube.backend.Application",
