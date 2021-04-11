@@ -9,7 +9,10 @@
       "name": "Launch User Service",
       "request": "launch",
       "mainClass": "com.socialyoutube.service.user.App",
-      "projectName": "user"
+      "projectName": "user",
+      "env": {
+        "SYT_CONFIG_PROPERTIES_FILE": "/home/duspensky/work/config/socialyt.properties"
+      }
     },
     {
       "type": "java",
